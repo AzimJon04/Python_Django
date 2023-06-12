@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do'kon</title>
+</head>
+<body>
+ <header>
+     <a href="{% url 'Home' %}"> Bosh sahifa</a>
+     <a href="{% url 'About' %}"> Saytimiz haqida</a>
+     <a href="{% url 'Products' %}"> Mahsulotlar haqida</a>
+     <a href="{% url 'Ads' %}"> E'lonlar</a>
+ </header>
+    {% block content %}
+    {% endblock content %}
+</body>
+</html>
